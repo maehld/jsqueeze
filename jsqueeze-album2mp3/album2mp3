@@ -1,0 +1,2 @@
+#!/bin/sh
+mvn exec:java -Dexec.mainClass=com.dsnine.jsqueeze.album2mp3.Main -Dexec.args="$1"
